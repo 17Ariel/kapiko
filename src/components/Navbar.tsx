@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import { useRef } from "react";
 import { List } from "react-bootstrap-icons";
 import { Link } from "react-scroll";
 
@@ -18,7 +18,7 @@ const Navbar = () => {
   return (
     <>
       <nav className="z-10 h-16 w-full sticky top-0 bg-primary-0 shadow-sm flex flex-row justify-center items-center gap-48 lg:gap-44 xl:gap-48 xxl:gap-48 text-white">
-        <h1 className="text-2xl text-slate-50 font-semibold">KAPIK</h1>
+        <h1 className="text-2xl text-slate-50 font-semibold">KAPIKO</h1>
         <ul className="flex-row hidden md:gap-16 lg:gap-16 xl:gap-20 xxl:gap-20 md:flex lg:flex xl:flex xxl:flex">
           <Link
             to="home"
